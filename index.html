@@ -173,6 +173,30 @@
         .delay-4 {
             animation-delay: 0.4s;
         }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f5ede3;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #c47a6b;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a86558;
+        }
+
+        /* Firefox scrollbar */
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: #c47a6b #f5ede3;
+        }
     </style>
 </head>
 
